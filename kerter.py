@@ -28,6 +28,6 @@ print ("2 - Kör")
 print ("3 - Téglalap")
 print ("4 - Nyolcszög")
 v=input ("Milyen alakzattal szeretnél dolgoyni?")
-it v =="1":
+if v =="1":
 print(haromszogKerulete())
 print(haromszogTerulete())
