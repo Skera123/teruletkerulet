@@ -22,3 +22,12 @@ def haromszogTerulete():
 	ma=float(input("Kérem a háromszög 'm' magasságát [cm]:"))
 	return float ((ma*a)/2)
 >>>>>>> deae6c27373ba2e8915cd4b00f14ac54c3a3f5ee
+
+print ("1 - Háromszög")
+print ("2 - Kör")
+print ("3 - Téglalap")
+print ("4 - Nyolcszög")
+v=input ("Milyen alakzattal szeretnél dolgoyni?")
+it v =="1":
+print(haromszogKerulete())
+print(haromszogTerulete())
