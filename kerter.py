@@ -29,5 +29,5 @@ print ("3 - Téglalap")
 print ("4 - Nyolcszög")
 v=input ("Milyen alakzattal szeretnél dolgoyni?")
 if v =="1":
-print(haromszogKerulete())
-print(haromszogTerulete())
+	print(haromszogKerulete())
+	print(haromszogTerulete())
