@@ -43,18 +43,26 @@ print ("1 - Háromszög")
 print ("2 - Kör")
 print ("3 - Téglalap")
 print ("4 - Nyolcszög")
-v=input ("Milyen alakzattal szeretnél dolgoyni?")
 
+v=input ("Milyen alakzattal szeretnél dolgozni?(1-4): ")
 if v =="1":
-	print(haromszogKerulete())
-	print(haromszogTerulete())
+        print("Háromszög kerülete: ", haromszogKerulete(), "cm" )
+        print("Háromszög területe: ", haromszogTerulete(), "cm2")
 
 
+if v =="2":
+        print("Kör kerülete: ", korKerulet(), "cm2" )
+        print("Kör területe: ", korTerulet(), "cm2" )
 
 
 if v =="3":
         print("Téglalap kerülete: ", teglalapKerulet(), "cm" )
         print("Téglalap területe: ", teglalapTerulet(), "cm2")
+        
+
+if v =="4":
+        print("Nyolcszög kerülete: ", nyolcszogKerulet(), "cm" )
+        print("Nyolcszög területe: ", nyolcszogTerulet(), "cm2")
 
 
 
