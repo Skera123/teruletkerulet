@@ -64,6 +64,7 @@ if v =="4":
         print("Nyolcszög kerülete: ", nyolcszogKerulet(), "cm" )
         print("Nyolcszög területe: ", nyolcszogTerulet(), "cm2")
 
+
 if v !="1" and "2" and "3" and "4":
         print ("Kérlek indítsd újra a programot és az 1,2,3 vagy 4 lehetőség közül válassz")
 
