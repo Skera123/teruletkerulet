@@ -1,11 +1,11 @@
 def nyolcszogKerulet ():
-a=float(input("Kérem a nyolcszög oldalát [cm]: "))
-return float (8*a)
+    a=float(input("Kérem a nyolcszög oldalát [cm]: "))
+    return float (8*a)
 
 def nyolcszogTerulet ():
-a=float(input("Kérem a nyolcszög oldalát [cm]: ")
-r=float(input("Kérem a nyolcszög sugarát [cm]: ")
-return float (4*a*r) 
+    a=float(input("Kérem a nyolcszög oldalát [cm]: "))
+    r=float(input("Kérem a nyolcszög sugarát [cm]: "))
+    return float (4*a*r) 
 
 def teglalapKerulet():
     a=int(input("Kérem a téglalap egyik oldalát [cm]:"))
