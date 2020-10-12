@@ -17,17 +17,16 @@ def teglalapTerulet():
     b=int(input("Kérem a téglalap másik oldalát [cm]:"))
     return float(a*b)
 
-
 def haromszogKerulete():
-	a=float(input("Kérem a háromszög 'a' oldalát [cm]:"))
-	b=float(input("Kérem a háromszög 'b' oldalát [cm]:"))
-	c=float(input("Kérem a háromszög 'c' oldalát [cm]:"))
-	return float (a+b+c)
+    a=float(input("Kérem a háromszög 'a' oldalát [cm]:"))
+    b=float(input("Kérem a háromszög 'b' oldalát [cm]:"))
+    c=float(input("Kérem a háromszög 'c' oldalát [cm]:"))
+    return float (a+b+c)
 	
 def haromszogTerulete():
-	a=float(input("Kérem a háromszög 'a' oldalát [cm]:"))
-	ma=float(input("Kérem a háromszög 'm' magasságát [cm]:"))
-	return float ((ma*a)/2)
+    a=float(input("Kérem a háromszög 'a' oldalát [cm]:"))
+    ma=float(input("Kérem a háromszög 'm' magasságát [cm]:"))
+    return float ((ma*a)/2)
 
 
 print ("1 - Háromszög")
