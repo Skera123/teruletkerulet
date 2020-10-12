@@ -28,6 +28,16 @@ def haromszogTerulete():
     ma=float(input("Kérem a háromszög 'm' magasságát [cm]:"))
     return float ((ma*a)/2)
 
+def korKerulet():
+    pi=3.14159265359
+    r=float(input("A kör kerületének kiszámításához adja meg a kör sugarát [cm]:"))
+    return float((2*r)*pi)
+    
+def korTerulet():
+    pi=3.14159265359
+    r=float(input("A kör területének kiszámításhoz adja meg ismét a kör sugarát [cm]:"))
+    return float ((r**2)*pi)
+
 
 print ("1 - Háromszög")
 print ("2 - Kör")
